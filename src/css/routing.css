@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+header a{
+    width: 80px;
+    margin: 4px;
+}
+ul{
+    list-style-type: none;
+}
+header ul {
+    margin: 0px;
+    padding: 0;
+}
+header li{
+    display: inline;
+    border: 1px solid black;
+    /* vertical-align: middle */
+    margin: 5px;
+}
+header{
+    background-color: rgba(24, 125, 219, 0.76);
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+}

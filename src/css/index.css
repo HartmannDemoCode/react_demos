@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#imageholder{
+  border: 1px solid red;
+}
+#cardetails{
+  border: 1px solid #a65117;
+  width: 300px;
+}
+input{
+  width: 360px;
+}
+.redborder{
+  border: 2px solid red;
+  width: 400px;
+}
+.greenborder{
+  border: 2px solid green;
+  width: 450px;
+}
+.blueborder{
+  border: 2px solid blue;
+  width: 400px;
+  margin-top: 30px;
+}

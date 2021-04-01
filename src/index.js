@@ -1,17 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import './css/index.css';
+//import App from './components/App';
+import StateChanger from './components/StateChanger';
+import Converter from './components/converters/Converter';
+import { BrowserRouter } from 'react-router-dom';
+import RoutingDemo from './components/RoutingDemo';
+import RoutingTestDemo from './components/TestExam';
+import RoutingDemoExam from './components/RoutingDemoExam';
+import RoutingComplete from './components/RountingDemoComplete';
+import HookRoutingDemo from './components/HookRoutingDemo';
+import CarApp from './components/CarApp';
+import Data3Ways from './components/Data3Ways';
+import TicTacToe from './games/tictactoe/TicTacToeGame';
+import Container from './components/stateChangerAdv/Container';
+import UseHooks, {Joke} from './components/usingHooks';
+// import Comp1 from './components/ContextForState';
+// import ContextEx from './components/contextWithUpdate';
+import ContextEx from './components/ContextSimple';
+import HooksForStateUp from './components/liftingUp/HooksStateUp';
+//import ObservableTodoStore, {peopleStore} from './components/mobxDemo/data/ObservableToDoStore';
+//import TodoList from './TodoList';
+import W2D1App from './exercises/week2-D1_COS_React_Routing/Week2-D1_COS_React_Routing';
+// import BookStore from './exercises/week2-D1_COS_React_Routing/BookStore';
+// import StateDemo from './components/liftingUp/StateDemo';
+// let bookStore = new BookStore();
+//const observableTodoStore = window.store = ObservableTodoStore;
+// ReactDOM.render(<CarApp/>, document.getElementById('root'));
+// ReactDOM.render(<TicTacToe/>, document.getElementById('root'));
+// ReactDOM.render(<TodoList store={observableTodoStore} people={peopleStore}/>, document.getElementById('root'));
+// ReactDOM.render(<W2D1App bookStore={bookStore}/>, document.getElementById('root'));
+// ReactDOM.render(<RoutingComplete/>, document.getElementById('root'));
+ReactDOM.render(<HookRoutingDemo/>, document.getElementById('root'));
+ // ReactDOM.render(<BrowserRouter><RoutingTestDemo/></BrowserRouter>, document.getElementById('root'));
+//  ReactDOM.render(<RoutingDemo/>, document.getElementById('root'));
+// ReactDOM.render(<Data3Ways/>, document.getElementById('root'));
+// ReactDOM.render(<UseHooks/>, document.getElementById('root'));
+// ReactDOM.render(<Joke/>, document.getElementById('root'));
+// ReactDOM.render(<Comp1/>, document.getElementById('root'));
+// ReactDOM.render(<ContextEx/>, document.getElementById('root'));
